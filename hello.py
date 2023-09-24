@@ -1,4 +1,4 @@
-name = "santi";
+# name = "santi";
 # print("Hello World: " , name);
 # print (2+10);
 
@@ -10,4 +10,6 @@ name = "santi";
 
 # print("Checking uppercase boolean: -> ", name.isupper());
 
-print("Replacing a letter: -> ", name.replace('n','m'));
+# print("Replacing a letter: -> ", name.replace('n','m'));
+
+# print("Data type ->", type(name));
