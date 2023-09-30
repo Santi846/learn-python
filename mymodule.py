@@ -1,2 +1,2 @@
 def my_fucntion():
-    print('Hello World!');
+    print('Hello Once!');
