@@ -1,7 +1,7 @@
 #import script
 #adding an alias
 # import mymodule as m;
-# import mymoduleTwo as m2;
+import mymoduleTwo as m2;
 
 #call imported module fucntion
 # m.my_fucntion();
@@ -14,6 +14,8 @@
 # print("String object structure: -> ", dir(name));
 
 # print("Import object structure: -> ", dir(m2));
+
+print("Data type: -> ", type(m2));
 
 # print("String length: -> ", len(name));
 
