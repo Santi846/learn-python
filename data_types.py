@@ -56,4 +56,29 @@ def verify_floats(number1, number2):
         
 # verify_floats(f, f4);
 
-print(round((0.1 + 0.2), 2));
+# print(round((0.1 + 0.2), 2));
+
+#TUPLES
+numbers_tuple = (1,2,3);
+numbers_tuple_two = 1,2,3;
+mixed_type_tuple = ("Santi es el: ", 1 , True);
+a_list = ["this is a list", "of two"];
+other_list = [1,2,3];
+
+def verify_tuple(input):
+    if isinstance(input, tuple):
+        print('The variable is a tuple');
+    else:
+        print('The variable is not a tuple');
+
+# verify_tuple(mixed_type_tuple);
+# print(type(mixed_type_tuple));
+#make a tuple, from a list
+# print(tuple(a_list));
+
+one_item_tuple = (1,);
+
+# print(one_item_tuple);
+
+tuple_from_lists = (*a_list, *other_list);
+print(tuple_from_lists);
